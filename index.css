@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f4f4f4;
+}
+
+.marker {
+    width: 300px;
+    height: 40px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cap {
+    width: 90px;
+    height: 40px;
+  }
+  
+  .sleeve {
+    width: 150px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 20px double rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  
+  .sleeve span {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75); 
+    position: relative;
+    top: 10px; 
+    left: 20px;
+    font-family: "Fira Sans", sans-serif;
+  }
+  
+  .cap,
+  .sleeve {
+    display: inline-block;
+  }
+  
+  /* COLORS AND SHADOWS PART */
+  .red {
+    background: rgb(245, 62, 62);
+    box-shadow: 0 0 20px 0 rgba(165, 29, 29, 0.8);
+  }
+  
+  .green {
+    background: rgb(0, 119, 0);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+  }
+  
+  .blue {
+    background: rgb(0, 26, 255);
+    box-shadow: 0 0 20px 0 blue;
+  }
+  
+  .yellow {
+    background: rgb(230, 255, 4);;
+    box-shadow: 0 0 20px 0 #e5c100;
+  }
+  
+  .purple {
+    background: rgb(142, 4, 255);
+    box-shadow: 0 0 20px 0 #4a148c;
+  }
+  
+  .orange {
+    background: rgb(255, 141, 11);
+    box-shadow: 0 0 20px 0 #ff4500;
+  }
+  
+  .pink {
+    background: rgb(255, 28, 225);
+    box-shadow: 0 0 20px 0 #ff00ff;
+  }
+  
+  .brown {
+    background: rgb(107, 61, 0);
+    box-shadow: 0 0 20px 0 #8b4513;
+  }
+  
+  .black {
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 20px 0 #000;
+  }
+  
+  .white {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 #ccc;
+  }
+  
+  .cyan {
+    background: rgb(0, 255, 255);
+    box-shadow: 0 0 20px 0 #40e0d0;
+  }
+  
+  .magenta {
+    background: rgb(255, 0, 255);
+    box-shadow: 0 0 20px 0 #db7093;
+  }
+  
+  .lime {
+    background: rgb(137, 243, 54);
+    box-shadow: 0 0 20px 0 #7fff00;
+  }
+  
+  .olive {
+    background: rgb(186, 184, 108);
+    box-shadow: 0 0 20px 0 #556b2f;
+  }
+  
+  .navy {
+    background: rgb(0, 0, 128);
+    box-shadow: 0 0 20px 0 #1e90ff;
+  }
+  
+  .teal {
+    background: rgb(0, 128, 128);
+    box-shadow: 0 0 20px 0 #4682b4;
+  }
